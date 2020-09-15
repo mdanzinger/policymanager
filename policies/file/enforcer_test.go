@@ -1,12 +1,12 @@
 package file
 
 import (
-	"os"
 	"github.com/mdanzinger/policymanager"
 	"github.com/mdanzinger/policymanager/pkg/duration"
 	"github.com/mdanzinger/policymanager/policies/file/actions"
 	"github.com/mdanzinger/policymanager/policies/file/conditions"
 	"github.com/mdanzinger/policymanager/policies/file/testutil"
+	"os"
 	"testing"
 	"time"
 )

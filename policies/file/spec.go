@@ -2,8 +2,8 @@ package file
 
 import (
 	"fmt"
-	"path/filepath"
 	"github.com/mdanzinger/policymanager"
+	"path/filepath"
 )
 
 const (

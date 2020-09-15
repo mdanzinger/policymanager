@@ -1,8 +1,8 @@
 package actions
 
 import (
-	"os"
 	"github.com/mdanzinger/policymanager"
+	"os"
 )
 
 const (

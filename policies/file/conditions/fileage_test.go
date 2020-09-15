@@ -1,9 +1,9 @@
 package conditions
 
 import (
-	"os"
 	"github.com/mdanzinger/policymanager/pkg/duration"
 	"github.com/mdanzinger/policymanager/policies/file/testutil"
+	"os"
 	"testing"
 	"time"
 )

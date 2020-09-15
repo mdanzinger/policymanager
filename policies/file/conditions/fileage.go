@@ -2,9 +2,9 @@ package conditions
 
 import (
 	"fmt"
-	"os"
 	"github.com/mdanzinger/policymanager"
 	"github.com/mdanzinger/policymanager/pkg/duration"
+	"os"
 	"time"
 )
 

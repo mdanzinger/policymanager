@@ -2,8 +2,9 @@ package file
 
 import (
 	"fmt"
-	"github.com/mdanzinger/policymanager"
 	"os"
+
+	"github.com/mdanzinger/policymanager"
 )
 
 const (

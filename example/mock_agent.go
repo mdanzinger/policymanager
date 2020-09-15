@@ -3,10 +3,10 @@ package main
 import (
 	"encoding/json"
 	"flag"
-	"io/ioutil"
-	"log"
 	"github.com/mdanzinger/policymanager"
 	_ "github.com/mdanzinger/policymanager/policies"
+	"io/ioutil"
+	"log"
 )
 
 func main() {
