@@ -1,0 +1,16 @@
+{
+  "id": "example policy",
+  "name": "gamelog deletor",
+  "type": "file",
+  "description": "Deletes all game log (.gamelog) files that are older than 30 seconds",
+  "actions": ["delete_file"],
+  "conditions": [{
+    "type": "file_age",
+    "data": {
+      "older_than": "10s"
+    }
+  }],
+  "spec": {
+    "target": ["./*.gamelog"]
+  }
+}
